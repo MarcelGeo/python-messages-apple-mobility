@@ -1,6 +1,8 @@
 # python-messages-apple-mobility
 Parsing and messages emmiting for apple mobility data on page https://www.apple.com/covid19/mobility
 
+The url for downloading data is changing by distributor, feel free to change it to actual in tasks.py.
+
 Script will output message for last processed day and merge data in database (PostgreSQL) for future manipulation.
 
 ## Example of messages from 7.5.2020 (data are available until 5.5.2020)
