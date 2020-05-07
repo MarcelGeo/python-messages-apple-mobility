@@ -4,7 +4,7 @@ Parsing and messages emmiting for apple mobility data on page https://www.apple.
 Script will output message for last processed day and merge data in database (PostgreSQL) for future manipulation.
 
 ## Example of messages from 7.5.2020 (data are available until 5.5.2020)
-`
+
 walking under 25 percentile (far to normal) 35.724999999999994
 ['Argentina' 'France' 'India' 'Indonesia' 'Ireland' 'Italy' 'Macao'
  'Morocco' 'New Zealand' 'Philippines' 'Portugal' 'Romania' 'Singapore'
@@ -21,7 +21,7 @@ Driving under 25 percentile (far to normal) 44.56
 ['Albania' 'Argentina' 'Cambodia' 'Colombia' 'France' 'India' 'Indonesia'
  'Italy' 'Macao' 'Morocco' 'New Zealand' 'Philippines' 'Portugal'
  'Romania' 'Singapore' 'Spain']
-Driving over 75 percentile (over normal trnasportation)  75.65
+ Driving over 75 percentile (over normal trnasportation)  75.65
 ['Czech Republic' 'Denmark' 'Estonia' 'Finland' 'Germany' 'Iceland'
  'Latvia' 'Lithuania' 'Norway' 'Slovakia' 'Sweden' 'Switzerland' 'Taiwan'
  'Ukraine' 'United States' 'Vietnam']
@@ -36,7 +36,7 @@ Transit over 75 percentile (over normal trnasportation)  51.205
 Transit over 100 in comparison to 13.1.2020
 []
 Median value is 29.16
-`
+
 
 ## Database output
 
