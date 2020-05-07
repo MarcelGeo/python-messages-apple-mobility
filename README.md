@@ -4,7 +4,7 @@ Parsing and messages emmiting for apple mobility data on page https://www.apple.
 Script will output message for last processed day and merge data in database (PostgreSQL) for future manipulation.
 
 ## Example of messages from 7.5.2020 (data are available until 5.5.2020)
-
+`
 walking under 25 percentile (far to normal) 35.724999999999994
 ['Argentina' 'France' 'India' 'Indonesia' 'Ireland' 'Italy' 'Macao'
  'Morocco' 'New Zealand' 'Philippines' 'Portugal' 'Romania' 'Singapore'
@@ -36,7 +36,8 @@ Transit over 75 percentile (over normal trnasportation)  51.205
 Transit over 100 in comparison to 13.1.2020
 []
 Median value is 29.16
+`
 
-##Database output
+## Database output
 
 PostgreSQL database is used for data storing. This will be future functionality for reading timelines with REST API builded by python.
