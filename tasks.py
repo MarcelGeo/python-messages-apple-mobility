@@ -28,7 +28,6 @@ def getData():
     npcsv = np.genfromtxt("temp/temp.csv", delimiter=',', dtype=np.str, encoding='utf8', invalid_raise=False, missing_values = np.nan, filling_values=np.nan)
     temp_file.close()
     store.updateStore(data=npcsv)
-    print(npcsv)
   except Exception as e:
     exceptions = store.mapStore("exceptions")
     exceptions.append(e)
